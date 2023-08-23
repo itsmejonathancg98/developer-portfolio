@@ -12,16 +12,16 @@ import {
 } from './types/sections';
 
 export const greetings: GreetingsType = {
-  name: 'Hanzla Tauqeer',
-  title: "Hi all, I'm Hanzla",
+  name: 'Jonathan Gurusinghe',
+  title: "Hi all, I'm Jonathan",
   description:
-    "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+    "Proficient Software Engineer with a robust educational background and a fervent enthusiasm for cutting-edge technologies. Backed by hands-on experience in Software Engineering and app development across diverse domains, I am now focused on pursuing a role in Mobile Application Development or as a Front-End Software Engineer. My expertise extends to Project Management Platforms and Hybrid Driven Tools/Technologies. Proficient in Object-Oriented Programming, Data Structures, Algorithms, and Design principles",
   resumeLink:
     'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
 };
 
 export const openSource = {
-  githubUserName: '1hanzla100',
+  githubUserName: 'itsmejonathancg98',
 };
 
 export const contact = {};
