@@ -27,7 +27,7 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://1hanzla100.github.io/',
+  url: 'https://1hanzla100.github.io/developer-portfolio/',
   linkedin: 'https://www.linkedin.com/in/1hanzla100/',
   github: 'https://github.com/1hanzla100',
   instagram: 'https://www.instagram.com/__hanzla100',
@@ -37,16 +37,16 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  subTitle: 'CRAZY ENOUGH TO THINK TRYING OUT TECH STACKS AND INNOVATIVE THINGS TO CHANGE THE WORLD TO A BETTER PLACE',
   data: [
     {
-      title: 'Full Stack Development',
+      title: 'Front-End Development',
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
           '⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'
         ),
-        emoji('⚡ Building responsive static websites using Next.js'),
+        emoji('⚡ Building '),
         emoji('⚡ Building RESTful APIs in Django & Django REST Framework'),
       ],
       softwareSkills: [
