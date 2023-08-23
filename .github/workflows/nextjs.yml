@@ -77,7 +77,7 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Copy additional directories
         run: |
-          cp -r styles/argon-design-system-react.css out/
+          cp -r styles/argon-design-system-react.css 
           cp -r public/img/icons/common out/
           cp -r public/lottie/skills/*.json out/public/lottie/skills/ out/
         working-directory: ${{ github.workspace }}
