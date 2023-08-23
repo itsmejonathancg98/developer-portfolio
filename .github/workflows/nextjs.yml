@@ -79,11 +79,8 @@ jobs:
         run: |
           cp -r styles/argon-design-system-react.css out/
           cp -r public/img/icons/common out/
+          cp -r public/lottie/skills/*.json out/public/lottie/skills/
         working-directory: ${{ github.workspace }}
-      - name: Copy Lottie Animation JSON Files
-        run: |
-          mkdir -p out/public/lottie/skills
-          cp public/lottie/skills/*.json out/public/lottie/skills/
       - name: Static HTML export with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next export
       - name: Upload artifact
