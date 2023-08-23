@@ -77,8 +77,11 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Copy additional directories
         run: |
-          cp -r styles/argon-design-system-react.css 
-          cp -r public/img/icons/common out/
+          mkdir -p out/styles
+          mkdir -p out/public/img/icons
+          cp -r styles/argon-design-system-react.css out/styles/
+          cp -r public/img/icons/common out/public/img/icons/
+          mkdir -p out/public/lottie/skills
           cp -r public/lottie/skills/*.json out/public/lottie/skills/ out/
         working-directory: ${{ github.workspace }}
       - name: Static HTML export with Next.js
