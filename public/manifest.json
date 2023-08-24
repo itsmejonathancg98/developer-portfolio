@@ -1,7 +1,7 @@
 {
   "short_name": "Portfolio",
-  "name": "Hanzla's Portfolio",
-  "description": "A passionate Full Stack Web Developer and Mobile App Developer.",
+  "name": "Jonathan's Portfolio",
+  "description": "A passionate Front-End Developer",
   "icons": [
     {
       "src": "./favicon.png",
@@ -14,7 +14,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "./index.html",
+  "start_url": "../index.html",
   "display": "standalone",
   "theme_color": "#11cdef",
   "background_color": "#11cdef"
