@@ -1,6 +1,6 @@
 module.exports = {
   reactStrictMode: false,
-  basePath: '/developer-portfolio',
+  basePath: '/developer-portfolio/',
   swcMinify: false,
   images: {
     domains: ['avatars.githubusercontent.com'],

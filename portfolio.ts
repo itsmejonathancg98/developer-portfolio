@@ -41,7 +41,7 @@ export const skillsSection: SkillsSectionType = {
   data: [
     {
       title: 'Front-End Development',
-      lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
+      lottieAnimationFile: './lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
           '⚡ Building Native IOS App with Localised Frameworks'
@@ -107,7 +107,7 @@ export const skillsSection: SkillsSectionType = {
     },
     {
       title: 'Data Science and Cloud Infra-Architecture',
-      lottieAnimationFile: '/lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
+      lottieAnimationFile: './lottie/skills/cloudinfra.json', // Path of Lottie Animation JSON File
       skills: [
         emoji('⚡ Experience of working on cloud platoforms and data science components'),
         emoji(
@@ -163,7 +163,7 @@ export const skillsSection: SkillsSectionType = {
     },
     {
       title: 'Skills',
-      lottieAnimationFile: '/lottie/skills/business-salesman.json', // Path of Lottie Animation JSON File
+      lottieAnimationFile: './lottie/skills/business-salesman.json', // Path of Lottie Animation JSON File
       skills: [
         emoji('⚡ Design Tools'),
         emoji(
@@ -270,21 +270,21 @@ export const experience: ExperienceType[] = [
   {
     role: 'Trainee Software Engineer',
     company: 'HighFlyer Global (Pvt) Ltd',
-    companyLogo: '/img/icons/common/highflyer.png',
+    companyLogo: './img/icons/common/highflyer.png',
     date: 'Apr 2023 – Current',
     desc: 'Currently, I am deeply adhere to industry best practices and follow rigorous Software Development Life Cycle (SDLC) standards. My responsibilities encompass implementing on ERP systems development, leveraging Frappe, ERPNext, React Js Frameworks, and harnessing Python scripting to enhance low-code capabilities. This role perfectly merges my technicalprowess with my passion for process optimization and strategic innovation.',
   },
   {
     role: 'IT Specialist',
     company: 'Education Services Network (Pvt) Ltd',
-    companyLogo: '/img/icons/common/esn.jpeg',
+    companyLogo: './img/icons/common/esn.jpeg',
     date: 'August 2022 – August 2023',
     desc: 'Carried out technical support, network adminstration, website development and maintenance and training and collaboration.',
   },
   {
     role: 'Business Development Lead and Freelancer',
     company: 'Inforwaves (Pvt) Ltd',
-    companyLogo: '/img/icons/common/inforwaves.jpeg',
+    companyLogo: './img/icons/common/inforwaves.jpeg',
     date: 'Sept 2021 - April 2023',
     desc: 'Carried out under training in identifying strategies and client networking to analyse competitive solutions for the company as well as as a freelancer have done web development and video editing.',
   },
