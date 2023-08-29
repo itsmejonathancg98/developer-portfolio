@@ -1,6 +1,6 @@
 module.exports = {
   reactStrictMode: false,
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/developer-portfolio' : '',
+  basePath: '/developer-portfolio',
   images: {
     domains: ['avatars.githubusercontent.com'],
   },
