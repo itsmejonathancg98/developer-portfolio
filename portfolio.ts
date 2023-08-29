@@ -12,7 +12,7 @@ import {
 } from './types/sections';
 
 export const greetings: GreetingsType = {
-  name: 'Jonathan Chanuka Gurusinghe',
+  name: '',
   title: "Hi all, I'm Jonathan",
   description:
     "Proficient Software Engineer with a robust educational background and a fervent enthusiasm for cutting-edge technologies. Backed by hands-on experience in Software Engineering and app development across diverse domains, I am now focused on pursuing a role in Mobile Application Development or as a Front-End Software Engineer. My expertise extends to Project Management Platforms and Hybrid Driven Tools/Technologies. Proficient in Object-Oriented Programming, Data Structures, Algorithms, and Design principles",
