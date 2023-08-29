@@ -16,9 +16,10 @@
 
 */
 @font-face {
-	font-family: Augestina;
-	src: url('/fonts/Agustina.otf');
-}
+	font-family: 'Agustina';
+	src: url('/developer-portfolio/fonts/Agustina.otf') format('opentype');
+  }
+  
 
 #nav-title {
 	font-family: Augestina;
