@@ -71,12 +71,6 @@ jobs:
           # If source files changed but packages didn't, rebuild from a prior cache.
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
-      - name: Copy Fonts
-        run: |
-          mkdir -p out/fonts
-          cp -r public/fonts/* out/fonts/
-      - name: Static HTML export with Next.js
-        run: ${{ steps.detect-package-manager.outputs.runner }} next export
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with Next.js
@@ -90,6 +84,10 @@ jobs:
       #     mkdir -p out/public/lottie/skills
       #     cp -r public/lottie/skills/*.json out/public/lottie/skills/ out/
         # working-directory: ${{ github.workspace }}
+      - name: Copy Fonts
+        run: |
+          mkdir -p out/fonts
+          cp -r public/fonts/* out/fonts/      
       - name: Static HTML export with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next export
       - name: Upload artifact
