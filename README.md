@@ -33,6 +33,8 @@ This website serves as a personal portfolio to highlight my work as a developer.
 - HTML
 - CSS
 - JavaScript
+- ReactJS
+- Next JS
 
 ## Installation
 
