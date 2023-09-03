@@ -19,7 +19,7 @@ This website serves as a personal portfolio to highlight my work as a developer.
 
 ## Demo
 
-![Website Demo](demo.gif)
+![Website Demo](output.gif)
 
 ## Features
 
