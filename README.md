@@ -19,7 +19,7 @@ This website serves as a personal portfolio to highlight my work as a developer.
 
 ## Demo
 
-![Website Demo]([output.gif](https://github.com/itsmejonathancg98/developer-portfolio/blob/9de0f554a0495afea4badf7792e140fddfc8d5f4/output.gif))
+![Website Demo](https://github.com/itsmejonathancg98/developer-portfolio/blob/9de0f554a0495afea4badf7792e140fddfc8d5f4/output.gif)
 
 ## Features
 
