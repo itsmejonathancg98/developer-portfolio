@@ -47,6 +47,8 @@ const Greetings = () => {
                         <span className="btn-inner--text">See My Resume</span>
                       </Button>
                     </div>
+                  )}
+                  {greetings.googleformLink && (
                     <div className="btn-wrapper my-4">
                       <Button
                         className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
@@ -56,7 +58,7 @@ const Greetings = () => {
                         <span className="btn-inner--icon mr-1">
                           <i className="fa fa-file" />
                         </span>
-                        <span className="btn-inner--text">Register for Mathematics Tutoring!</span>
+                        <span className="btn-inner--text">Register yourself!</span>
                       </Button>
                     </div>
                   )}
