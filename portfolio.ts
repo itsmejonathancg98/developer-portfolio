@@ -42,6 +42,30 @@ export const skillsSection: SkillsSectionType = {
   subTitle: 'CRAZY ENOUGH TO THINK TRYING OUT TECH STACKS AND INNOVATIVE THINGS TO CHANGE THE WORLD TO A BETTER TOMORROW',
   data: [
     {
+  title: 'Mathematics Tutoring (Grades 1–5)',
+  lottieAnimationFile: './lottie/skills/mathsformula.js', // Path of Lottie Animation JSON File
+  skills: [
+    emoji('⚡ Helping students build strong foundational maths skills'),
+    emoji('⚡ Making learning simple, fun and confidence-boosting'),
+    emoji('⚡ Focus on numeracy, problem solving, and real-world understanding'),
+    emoji('⚡ Personalised lessons based on the student’s strengths and needs')
+  ],
+  softwareSkills: [
+    {
+      skillName: 'Primary Mathematics Education',
+      iconifyTag: 'mdi:calculator-variant'
+    },
+    {
+      skillName: 'Interactive Learning Tools',
+      iconifyTag: 'mdi:lightbulb-on-outline'
+    },
+    {
+      skillName: 'Student Progress Tracking',
+      iconifyTag: 'mdi:chart-line'
+    }
+  ]
+},    
+{
       title: 'Front-End Development',
       lottieAnimationFile: './lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
