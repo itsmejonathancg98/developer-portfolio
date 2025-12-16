@@ -81,11 +81,11 @@ export const skillsSection: SkillsSectionType = {
     iconifyTag: 'logos:wordpress',
   },
   {
-    skillName: 'Elementor Pro',
+    skillName: 'ElementorPro',
     iconifyTag: 'logos:elementor',
   },
   {
-    skillName: 'Advanced Custom Fields (ACF)',
+    skillName: 'AdvancedCustomFields',
     iconifyTag: 'logos:wordpress',
   },
   {
@@ -97,19 +97,19 @@ export const skillsSection: SkillsSectionType = {
     iconifyTag: 'devicon:typescript',
   },
   {
-    skillName: 'Next.js 15',
+    skillName: 'Next.js',
     iconifyTag: 'vscode-icons:file-type-light-next',
   },
   {
-    skillName: 'React 19',
+    skillName: 'React19',
     iconifyTag: 'vscode-icons:file-type-reactjs',
   },
   {
-    skillName: 'Tailwind CSS',
+    skillName: 'TailwindCSS',
     iconifyTag: 'logos:tailwindcss-icon',
   },
   {
-    skillName: 'shadcn/ui',
+    skillName: 'shadcnui',
     iconifyTag: 'logos:shadcn',
   },
   {
