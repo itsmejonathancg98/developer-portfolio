@@ -76,88 +76,60 @@ export const skillsSection: SkillsSectionType = {
         emoji('⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js'),
       ],
       softwareSkills: [
-  {
-    skillName: 'WordPress',
-    iconifyTag: 'logos:wordpress',
-  },
-  {
-    skillName: 'ElementorPro',
-    iconifyTag: 'logos:elementor',
-  },
-  {
-    skillName: 'AdvancedCustomFields',
-    iconifyTag: 'logos:wordpress',
-  },
-  {
-    skillName: 'WooCommerce',
-    iconifyTag: 'logos:woocommerce',
-  },
-  {
-    skillName: 'TypeScript',
-    iconifyTag: 'devicon:typescript',
-  },
-  {
-    skillName: 'Next.js',
-    iconifyTag: 'vscode-icons:file-type-light-next',
-  },
-  {
-    skillName: 'React19',
-    iconifyTag: 'vscode-icons:file-type-reactjs',
-  },
-  {
-    skillName: 'TailwindCSS',
-    iconifyTag: 'logos:tailwindcss-icon',
-  },
-  {
-    skillName: 'shadcnui',
-    iconifyTag: 'logos:shadcn',
-  },
-  {
-    skillName: 'React Query',
-    iconifyTag: 'logos:react-query',
-  },
-  {
-    skillName: 'Zod',
-    iconifyTag: 'logos:zod',
-  },
-  {
-    skillName: 'Vite',
-    iconifyTag: 'logos:vite',
-  },
-  {
-    skillName: 'tRPC',
-    iconifyTag: 'logos:trpc',
-  },
-  {
-    skillName: 'Prisma',
-    iconifyTag: 'logos:prisma',
-  },
-  {
-    skillName: 'Supabase',
-    iconifyTag: 'logos:supabase',
-  },
-  {
-    skillName: 'Vercel',
-    iconifyTag: 'logos:vercel',
-  },
-  {
-    skillName: 'Node.js',
-    iconifyTag: 'logos:nodejs',
-  },
-  {
-    skillName: 'HTML5',
-    iconifyTag: 'vscode-icons:file-type-html',
-  },
-  {
-    skillName: 'CSS3',
-    iconifyTag: 'vscode-icons:file-type-css',
-  },
-  {
-    skillName: 'JavaScript',
-    iconifyTag: 'logos:javascript',
-  }
-]
+        {
+          skillName: 'Swift',
+          iconifyTag: 'logos:swift',
+        },
+        {
+          skillName: 'Swift-UI',
+          iconifyTag: 'mdi:language-swift',
+        },
+        {
+          skillName: 'HTML-5',
+          iconifyTag: 'vscode-icons:file-type-html',
+        },
+        {
+          skillName: 'CSS-3',
+          iconifyTag: 'vscode-icons:file-type-css',
+        },
+        {
+          skillName: 'JavaScript',
+          iconifyTag: 'logos:javascript',
+        },
+        {
+          skillName: 'Reactjs',
+          iconifyTag: 'vscode-icons:file-type-reactjs',
+        },
+        {
+          skillName: 'React Native',
+          iconifyTag: 'tabler:brand-react-native',
+        },
+        {
+          skillName: 'TypeScript',
+          iconifyTag: 'devicon:typescript',
+        },
+        {
+          skillName: 'Nextjs',
+          iconifyTag: 'vscode-icons:file-type-light-next',
+        },
+        {
+          skillName: 'Redux',
+          iconifyTag: 'logos:redux',
+        },
+        {
+          skillName: 'NPM',
+          iconifyTag: 'logos:npm-icon',
+        },
+        {
+          skillName: 'Yarn',
+          iconifyTag: 'logos:yarn',
+        },
+        {
+          skillName: 'Babel',
+          iconifyTag: 'logos:babel',
+        },
 
+      ],
     },
     {
       title: 'Data Science and Cloud Infra-Architecture',
